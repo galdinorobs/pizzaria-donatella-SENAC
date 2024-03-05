@@ -138,3 +138,56 @@ section.plano-principal div.planos-bottom p {
     text-align: center;
     padding: 35px;
 }
+
+/*-----------------------------------*/
+
+/*-------------- FOOTER -------------*/
+
+/*-----------------------------------*/
+
+footer div.info ul {
+    margin-left: 15px;
+    margin-bottom: 120px;
+}
+
+footer div.info li {
+    list-style: none;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+/**/
+
+header div.chamada h1 {
+    color: #FFF;
+    text-shadow: 4px 6px 10px #000;
+    animation-name: h1-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+header div.chamada h4 {
+    font-size: 250%;
+    text-shadow: 4px 6px 10px #000;
+    margin-bottom: 55px;
+    animation-name: h1-animation;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
+}
+
+header div.chamada a {
+    font-size: 110%;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 50px;
+    display: inline-block;
+    background: linear-gradient(rgba(7,140,49,55) 0%, rgba(6,89,2,35) 50%, rgba(6,89,2,35) 100% );
+    animation-name: HearderA-animation;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
+}
